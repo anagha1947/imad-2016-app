@@ -18,7 +18,7 @@ app.get('/ui/madi.png', function (req, res) {
 });
 
 app.get('/article1', function(req,res){
-    res.sendFile(path.join(_dirname, 'ui', 'article1.html') );
+    res.sendFile(path.join(_dirname, 'ui', 'article1.html'));
 });
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
